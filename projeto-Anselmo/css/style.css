@@ -1,0 +1,73 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.navbar{
+    position: absolute;
+    background-color: #d87093;
+    display: grid;
+    width: 100%;
+}
+
+.navbar ul{
+    display: inline-block;
+    padding: 16px;
+    list-style-type: none;
+}
+
+ul li{
+    float: left;
+}
+
+.navbar-content a {
+   display: block;
+   padding: 16px;
+   text-decoration: none;
+   color: white;
+}
+.navbar a:hover{
+    background-color: pink;
+    transition: 0.4s;
+    
+}
+
+.logo{
+   text-align: center;
+   
+}
+
+.main {
+    width: 30%;
+    margin: 0 auto;
+    height: 30%;
+    display: block;
+} 
+
+#artigo {
+    display: block;
+}
+
+
+
+
+
+/* Estilo do botão */ .dropdown { position: relative; display: inline-block; }
+
+.dropdown button { background-color: #3498DB; color: white; padding: 16px; font-size: 16px; border: none; cursor: pointer; }
+
+.dropdown button:hover, .dropdown button:focus { background-color: #2980B9; }
+
+/* Estilo do menu */ .dropdown ul { position: absolute; top: 100%; left: 0; background-color: #f1f1f1; min-width: 160px; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); z-index: 1; display: none; }
+
+.dropdown ul li a { color: black; padding: 12px 16px; text-decoration: none; display: block; }
+
+.dropdown ul li a:hover { background-color: #ddd; }
+
+/* Mostrar o menu quando o botão for focado ou passado o mouse */ 
+.dropdown:hover ul, .dropdown:focus-within ul { 
+    display: block; 
+} 
+
