@@ -128,7 +128,7 @@ header {
     justify-content: center;
 }
 
-/*Hero*/
+/*Hero -- Cards*/
 #hero {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -182,7 +182,56 @@ figcaption {
     width: 100%;
     margin-top: 25px;
 }
+
+/*Sections para texto */
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap
+}
+
+#info {
+    width: 400px;
+    height: 550px;
+    background-color: blue;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    
+
+}
   
+#info2 {
+    width: 400px;
+    height: 550px;
+    background-color: blueviolet;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+
+#infoForm {
+    width: 320px;
+    height: 320px;
+    align-items: center;
+    margin-top: 125px;
+    margin-left: 70px;
+}
+
+#infoForm a {
+    width: 200px;
+    align-items: center;
+}
+
+/*Rodape*/
+
+#rodape {
+    height: 50px;
+    background-color: black;
+}
 
 
 /*Responsividade*/
@@ -206,6 +255,12 @@ figcaption {
     .dropdown_menu {
         left: 2rem;
         width: unset;
+    }
+    #banner {
+        display: none;
+    }
+    .container {
+        flex: 1 0 100%;
     }
 }
 
