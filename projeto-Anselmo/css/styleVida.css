@@ -181,6 +181,7 @@ figcaption {
 #banner img {
     width: 100%;
     margin-top: 25px;
+    height: 350px;
 }
 
 /*Sections para texto */
@@ -213,12 +214,13 @@ figcaption {
     
 }
 
-#infoForm {
-    width: 320px;
-    height: 320px;
+.infoForm {
+    display: flex;
+    width: 200px;
+    height: 200px;
     align-items: center;
-    margin-top: 125px;
-    margin-left: 70px;
+    margin-top: 130px;
+    
 }
 
 #infoForm a {
