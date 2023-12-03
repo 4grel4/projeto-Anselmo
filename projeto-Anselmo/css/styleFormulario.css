@@ -1,20 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Open Sans', sans-serif;
-}
-
 body {
     height: 100vh;
-    background: linear-gradient(150deg, rgb(151, 88, 135), rgb(255, 255, 255));
+    background: linear-gradient(150deg, rgb(151, 88, 135), rgb(201, 183, 183));
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-hr {
-    margin: 10px 0;
-    color: #ff00ff;
 }
 
 li {
@@ -51,8 +39,6 @@ a:hover {
     background-color: rgb(7, 7, 7);
 }
 
-
-/*Header*/
 
 header {
     position: relative;
@@ -116,9 +102,9 @@ header {
     position: absolute;
     right: 2rem;
     top: 60px;
-   height: 0;
+    height: 0;
     width: 300px;
-    background: pink;
+    background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
     backdrop-filter: blur(15px);
     border-radius: 10px;
     overflow: hidden;
@@ -143,155 +129,153 @@ header {
     justify-content: center;
 }
 
-/*Hero -- Cards*/
-#hero {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    justify-items: center;
-    gap: 20px;
-    justify-content: space-between;
+/* Formulario */
+
+#principal {
+    width: 1000px;
+    max-width: 800px;
+    height: 1000px;
+     margin: 0;
+     padding: 0;
+     margin: auto;   
 }
 
-figcaption {
-    text-align: center;
+#titulo {
+    
+    color: #e62a2a;
+    background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
 }
 
-
-#hero h1 {
-    display: flex;
-    justify-content: center;
+#corpo {
     align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    text-align: center;
-}
-
-#hero figure {
-    display: inline-block;
-}
-
-
-
-.rodape { 
-    height: calc(100vh - 60px);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: aliceblue;
-}
-
-/* banner */ 
-
-#banner img {
     width: 100%;
-    margin-top: 25px;
-    height: 350px;
-}
-
-/*Sections para texto */
-
-.container {
+    height: 100%;
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap
-}
-
-#info {
-    width: 400px;
-    height: 650px;
-    background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
-    margin-top: 10px;
-    margin-left: 120px;
-    margin-bottom: 10px;
-    text-align: center;
-    border-radius: 10px;
-    margin-right: 10px;
-    
-
-}
-  
-#info2 {
-    width: 400px;
-    height: 750px;
-    background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
-    border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 120px;
-    margin-bottom: 10px;
-    text-align: center;
-    
-}
-
-.infoForm {
-    display: flex;
-    width: 250px;
-    height: 250px;
-    align-items: center;
-    margin-top: 130px;
-    justify-content: center;
-    align-items: center;   
     flex-direction: column;
+   
 }
 
-
-
- 
-#info2 h2 {
-    color: rgb(255, 0, 170);
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-#info2 p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: pink;
-    margin: 10px;
-}
-
-#info h2 {
-    color: rgb(255, 0, 170);
-    font-size: 24px;
-    margin-bottom: 10px;
-}
-
-#info p {
-    font-size: 16px;
-    line-height: 1.5;
-    color: pink;
-    margin: 10px;
-}
-
-#info img {
-    margin-top: 40px;
-}
-
-#info2 img {
+#dados1 {
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 10px;
     margin-top: 50px;
+    border-radius: 10px;
+    border: 1px solid;
+    background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
+    display: flex;
+    justify-content: center;
+}
+    
+#dados2 {
+    width: 500px;
+    display: flex;
+    text-align: center;
+    background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
+    border-radius: 10px;
+    align-items: center;
+    border: 1px solid;
+    justify-content: center;
+}
+    
+#rodape {
+    display: flex;
+    width: 550px;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    border: 1px solid;
+   
+    background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
+}
+.cxnome {
+    width: 250px;
+    height: 20px;
 }
 
+.cxdata {
+    width: 230px;
+    height: 20px;
+}
 
-#rodape p {
+.cxnomemae {
+    width: 260px;
+    height: 20px;
+}
+
+.cxnomepai {
+    width: 260px;
+    height: 20px;
+}
+
+.cxemail {
+    width: 350px;
+    height: 20px;
+}
+
+#ddd {
+    width: 40px;
+    height: 20px;
+}
+#telefone {
+    width: 80px;
+    height: 20px;
+}
+#ramal {
+    width: 80px;
+    height: 20px;
+}
+.btn1 {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+
+.btn2 {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    background-color: #000;
+    border-radius: 5px;
+    margin-top: 25px;
+}
+ input[type="checkbox"] {
+    display: table-column;
+    margin: 0 auto;
+    padding: 0 10px;
+ }
+
+ .field2,
+ .field1 {
+    border: none;
+ }
+
+ #titulo {
+    font-family:Arial, Helvetica, sans-serif;
+    color: #000000;
+    font-weight: bolder;
+ }
+
+ #subtitulo {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    font-weight: bolder;
+ }
+
+ #rodape p {
     color: rgb(184, 142, 180);
     text-align: center;
+    margin-top: 20px;
 
 }
+ 
 
-
-/*Rodape*/
-
-#rodape {
-    height: 50px;
-    background-color: black;
-}
-
-
-/*Responsividade*/
-
-@media(max-width: 992px) {
+ @media(max-width: 992px) {
     .navbar .links,
     .navbar .action_btn {
         display: none;
@@ -303,6 +287,7 @@ figcaption {
 
     .dropdown_menu{
         display: block;
+        z-index: 10;
     }
 }
 
@@ -325,4 +310,3 @@ figcaption {
         ;
     }
 }
-
