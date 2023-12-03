@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background: linear-gradient(150deg, rgb(151, 88, 135), rgb(201, 183, 183));
+    background: linear-gradient(150deg, rgb(233, 17, 179), rgb(156, 199, 241));
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -143,6 +143,32 @@ header {
 }
 
 /*Hero -- Cards*/
+
+#hero2 {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+    gap: 20px;
+    justify-content: space-evenly;
+    
+}
+
+#hero2 h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+}
+
+#hero2 figure {
+    display: inline-block;
+}
+
+
+
 #hero {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -199,7 +225,7 @@ figcaption {
 
 #info {
     width: 400px;
-    height: 650px;
+    height: auto;
     background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
     margin-top: 10px;
     margin-left: 120px;
@@ -213,7 +239,7 @@ figcaption {
   
 #info2 {
     width: 400px;
-    height: 750px;
+    height: auto;
     background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
     border-radius: 10px;
     margin-top: 10px;
@@ -223,6 +249,24 @@ figcaption {
     text-align: center;
     
 }
+
+#info3 {
+    max-width: 1000px;
+    height: auto;
+    background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 150px;
+    padding: 20px;
+    
+}
+   
+   
+    
+    
 
 .infoForm {
     display: flex;
@@ -250,6 +294,20 @@ figcaption {
     color: pink;
     margin: 10px;
 }
+
+#info3 p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: pink;
+    margin: 10px;
+}
+
+#info3 h2 {
+    color: rgb(255, 0, 170);
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
 
 #info h2 {
     color: rgb(255, 0, 170);
@@ -284,6 +342,8 @@ figcaption {
 .top5{
     text-align: center;
     padding: 16px;
+    margin-bottom: 50px;
+    height: auto;
     
 }
 
@@ -321,16 +381,16 @@ figcaption {
 
 }
 
-.fa-brands fa-spotify
+
 
 
 /*Rodape*/
 
 #rodape {
-    display: flex;
+    margin-top: 10px;
     width: 100%;
     height: 50px;
-    background-color: black;
+    background: linear-gradient(150deg, rgb(243, 62, 198), rgb(34, 31, 31));
     
 }
 
@@ -345,7 +405,7 @@ figcaption {
 
 /*Responsividade*/
 
-@media(max-width: 992px) {
+@media(max-width: 956px) {
     .navbar .links,
     .navbar .action_btn {
         display: none;
@@ -357,6 +417,9 @@ figcaption {
 
     .dropdown_menu{
         display: block;
+    }
+    .top5 {
+        display: none;
     }
 }
 
@@ -377,6 +440,11 @@ figcaption {
         margin-bottom: 100px;
         margin-left: 100px
         ;
+    }
+    .top5 {
+        display: none;
+        align-items: center;
+        justify-content: center;
     }
 }
 
