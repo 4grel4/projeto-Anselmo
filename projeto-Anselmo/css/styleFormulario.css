@@ -142,7 +142,7 @@ header {
 
 #titulo {
     
-    color: #e62a2a;
+    color: #e62ac7;
     background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
 }
 
@@ -170,9 +170,10 @@ header {
     
 #dados2 {
     width: 500px;
+    height: 500px;
     display: flex;
     text-align: center;
-    background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
+    background-image: url(../img/fundoForm.png);
     border-radius: 10px;
     align-items: center;
     border: 1px solid;
@@ -231,7 +232,7 @@ header {
     width: 100px;
     height: 50px;
     color: #fff;
-    background-color: #000;
+    background-color: #000000;
     border-radius: 5px;
     margin-top: 25px;
 }

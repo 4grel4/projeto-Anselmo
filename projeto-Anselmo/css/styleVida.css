@@ -299,7 +299,7 @@ figcaption {
 .list__artistas_1{
     display: flex;
     padding: 16px;
-    background: linear-gradient(150deg, rgb(243, 62, 198), rgb(177, 56, 56));
+    background: linear-gradient(150deg, rgb(243, 62, 198), rgb(34, 31, 31));
     border: 2px solid #ff00ff;
     justify-content: space-between;
     margin: 0 5rem;
@@ -320,6 +320,8 @@ figcaption {
     
 
 }
+
+.fa-brands fa-spotify
 
 
 /*Rodape*/
