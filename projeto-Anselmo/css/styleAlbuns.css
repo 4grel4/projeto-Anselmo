@@ -144,6 +144,28 @@ header {
 }
 
 /*Hero -- Cards*/
+#hero2 {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    justify-items: center;
+    gap: 20px;
+    margin-bottom: 40px;
+    
+    
+}
+
+#hero2 figure {
+    display: inline-block;
+    justify-content: space-between;
+}
+
+#hero2 img {
+    height: 250px;
+}
+
+
+
 #hero {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -250,6 +272,7 @@ figcaption {
     color: rgb(255, 0, 170);
     font-size: 24px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 
@@ -264,6 +287,10 @@ figcaption {
     flex-direction: column;
 }
 
+.infoForm img {
+    height: 250px;
+}
+
 
 
  
@@ -271,6 +298,7 @@ figcaption {
     color: rgb(255, 0, 170);
     font-size: 24px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #info2 p {
@@ -284,6 +312,7 @@ figcaption {
     color: rgb(255, 0, 170);
     font-size: 24px;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 #info p {
@@ -295,10 +324,12 @@ figcaption {
 
 #info img {
     margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 #info2 img {
     margin-top: 50px;
+    margin-bottom: 20px;
 }
 
 
@@ -336,12 +367,17 @@ aside li {
 
 .tracklist {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    
 }
 
 .track1 {
     width: 50%;
+    
+    
+    
+    
 }
 
 .track2 {
@@ -386,6 +422,7 @@ aside li {
         flex: 1 0 100%;
     }
     .infoForm {
+        display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 100px;
