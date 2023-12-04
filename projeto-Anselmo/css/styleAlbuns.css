@@ -162,6 +162,12 @@ header {
 
 #hero2 img {
     height: 250px;
+    border-radius: 20px;
+}
+
+#hero img {
+    height: 250px;
+    border-radius: 20px;
 }
 
 
@@ -233,6 +239,8 @@ figcaption {
     
 
 }
+
+
   
 #info2 {
     width: 400px;
@@ -289,6 +297,7 @@ figcaption {
 
 .infoForm img {
     height: 250px;
+    border-radius: 20px;
 }
 
 
@@ -325,11 +334,13 @@ figcaption {
 #info img {
     margin-top: 40px;
     margin-bottom: 10px;
+    border-radius: 20px;
 }
 
 #info2 img {
     margin-top: 50px;
     margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 

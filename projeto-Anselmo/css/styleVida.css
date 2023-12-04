@@ -160,8 +160,13 @@ header {
     justify-content: space-between;
 }
 
-#hero2 img {
+#hero2 a img {
     height: 250px;
+    border-radius: 20px;
+}
+
+#hero a img {
+    border-radius: 20px;
 }
 
 
@@ -261,6 +266,8 @@ figcaption {
     padding: 20px;
     
 }
+
+
    
    
     
@@ -279,6 +286,7 @@ figcaption {
 
 .infoForm img {
     height: 250px;
+    border-radius: 20px;
 }
 
 
@@ -329,11 +337,16 @@ figcaption {
 
 #info img {
     margin-top: 30px;
+    border-radius: 20px;
 }
 
 #info2 img {
     margin: 0 30px 0 30px;
-    
+    border-radius: 20px;
+}
+
+#info3 img {
+    border-radius: 20px;
 }
 
 
