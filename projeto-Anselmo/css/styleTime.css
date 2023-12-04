@@ -224,12 +224,15 @@ figcaption {
     width: 400px;
     height: auto;
     background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
-    margin-top: 10px;
-    margin-left: 120px;
-    margin-bottom: 10px;
+    
+    margin-top: -30px;
+    margin-left: 35%;
     text-align: center;
     border-radius: 10px;
-    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     
 
 }
@@ -239,11 +242,10 @@ figcaption {
     height: auto;
     background: linear-gradient(150deg, rgb(27, 26, 27), rgb(248, 35, 202));
     border-radius: 10px;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 120px;
-    margin-bottom: 10px;
+    margin-left: 35%;
+   margin-bottom: 20px;
     text-align: center;
+    margin-top: -30px;
     
 }
 
@@ -408,6 +410,7 @@ aside li {
     .dropdown_menu{
         display: block;
     }
+    
 }
 
 @media(max-width: 576px) {
@@ -426,8 +429,14 @@ aside li {
         align-items: center;
         justify-content: center;
         margin-bottom: 100px;
-        margin-left: 100px
-        ;
+        margin-left: 100px;
     }
+    .info {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
 }
 
